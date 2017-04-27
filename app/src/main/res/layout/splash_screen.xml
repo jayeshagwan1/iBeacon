@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+	android:weightSum="1">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:id="@+id/banerLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="89dp"
+		android:background="@drawable/registration_header"/>
+	<ImageView
+        android:id="@+id/nielsenLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/flash_screen"
+		android:layout_weight="0.9" />
+
+</LinearLayout>
